@@ -1,9 +1,9 @@
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1>The default blog</h1>
+            <h1>The blog</h1>
             <div className="links">
-                <a href="/">Home</a>
+                <a href="/" className="active">Home</a>
                 <a href="/create">New Blog</a>
                 <a href="/about">About</a>
             </div>
